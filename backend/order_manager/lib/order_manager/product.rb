@@ -1,10 +1,10 @@
 module OrderManager
   class Product
-    attr_reader :name, :type, :amount
-    def initialize(name:, type:, amount:)
+    attr_reader :name, :type, :price
+    def initialize(name:, type:, price:)
       @name = name
       @type = type
-      @amount = amount
+      @price = price
     end
   end
 end
